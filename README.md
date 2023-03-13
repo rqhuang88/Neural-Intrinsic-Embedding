@@ -1,1 +1,3 @@
-# Neural-Intrinsic-Embedding-NIE-
+# Neural-Intrinsic-Embedding
+
+Coming soon.
