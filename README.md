@@ -2,6 +2,9 @@
 
 This repository is a PyTorch implementation of [Neural-Intrinsic-Embedding](https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_Neural_Intrinsic_Embedding_for_Non-Rigid_Point_Cloud_Matching_CVPR_2023_paper.pdf).
 
+![teaser](img/teaser.png)
+
+
 
 ### Requirements
 
