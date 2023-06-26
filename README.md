@@ -25,7 +25,7 @@ models
 To evaluate the model  FAUST\SCAPE, run:
 
 ```eval
-python code/faust/test_faust_sample.py.py
+python code/faust/test_faust_sample.py
 or
 python code/scape/test_scape_sample.py
 ```
