@@ -1,9 +1,6 @@
-*.pth
 *.ply
 *.npy
 *.png
-*.mat
-*.txt
 *.whl
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -11,7 +8,6 @@ __pycache__/
 *$py.class
 # C extensions
 *.so
-*.pth
 *.ipynb
 # Distribution / packaging
 .Python
