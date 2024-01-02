@@ -41,7 +41,28 @@ code/eval/SCAPE_5k.m
 
 ### Training
 
-Coming soon.
+First, you should compute the geodesic distance matrix for each shape in the dataset. You can use the code in [this repository](https://github.com/nmwsharp/potpourri3d?tab=readme-ov-file#mesh-geodesic-paths) and put them in:
+
+```
+data/{DATASET_NAME}/geod
+For example:
+data/SCAPE_5k/geod/mesh000.npy  
+```
+if mesh000 has N points, then the distance matrix mesh000.npy has the shpae of [N,N].
+
+
+To train the basis model, you may run:
+```
+python code/train_basis_sample.py --config config/train_scape_5k.yaml
+```
+
+
+Thenn, to train the descriptor model, you may run:
+```
+python code/train_desc_sample.py --config config/train_scape_5k.yaml 
+```
+
+
 
 
 

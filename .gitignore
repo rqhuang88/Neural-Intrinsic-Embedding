@@ -1,5 +1,5 @@
 *.ply
-*.npy
+# *.npy
 
 *.whl
 # Byte-compiled / optimized / DLL files

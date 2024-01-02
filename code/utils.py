@@ -56,7 +56,6 @@ def farthest_point_sample(point, npoint):
         mask = dist < distance
         distance[mask] = dist[mask]
         farthest = np.argmax(distance, -1)
-    # point = point[centroids.astype(np.int32)]
 
     return centroids
 
