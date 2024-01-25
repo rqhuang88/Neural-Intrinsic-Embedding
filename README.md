@@ -41,7 +41,7 @@ code/eval/SCAPE_5k.m
 
 ### Training
 
-First, you should compute the geodesic distance matrix for each shape in the dataset. You can use the code in [this repository](https://github.com/nmwsharp/potpourri3d?tab=readme-ov-file#mesh-geodesic-paths) and put them in:
+First, you should compute the geodesic distance matrix for each shape in the dataset. You can use the code in [this repository](https://github.com/nmwsharp/potpourri3d?tab=readme-ov-file#mesh-geodesic-paths) or [this matlab code](https://cloud.tsinghua.edu.cn/f/cab52a220f1049d0b7fa/?dl=1) and put them in:
 
 ```
 data/{DATASET_NAME}/geod
